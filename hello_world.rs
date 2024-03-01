@@ -7,4 +7,11 @@ fn main() {
     a_number = 15;
     println!("The number is {}.", a_number);
     println!("The word is {}.", a_word);
+
+
+    let shadow_num = 5;
+    let shadow_num = shadow_num + 5;
+    let shadow_num = shadow_num * 5;
+
+    println!("The number is {}.", shadow_num);
 }
