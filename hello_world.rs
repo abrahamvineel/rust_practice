@@ -15,7 +15,6 @@ fn main() {
 
     println!("The number is {}.", shadow_num);
 
-
     let number: u32 = 14;
     println!("The number is {}.", number);
 }
