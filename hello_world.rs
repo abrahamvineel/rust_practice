@@ -17,4 +17,6 @@ fn main() {
 
     let number: u32 = 14;
     println!("The number is {}.", number);
+
+    println!("1 + 2 = {} and 8 - 5 = {} and 15 * 3 = {}", 1u32 + 2, 8i32 - 5, 15 * 3);
 }
