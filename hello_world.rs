@@ -21,4 +21,7 @@ fn main() {
     println!("1 + 2 = {} and 8 - 5 = {} and 15 * 3 = {}", 1u32 + 2, 8i32 - 5, 15 * 3);
 
     println!("9 / 2 = {} but 9.0 / 2.0 = {}", 9u32 / 2, 9.0 / 2.0);
+
+    let is_smaller = 1 < 4;
+    println!("is 1 < 4? {} ", is_smaller);
 }
