@@ -39,4 +39,49 @@ fn main() {
         println!("r val in statements {}", r);
     }
     println!("r val outside statements {}", r);
+
+    const MAX_SALARY: i32 = 100_000;
+    println!("MAX_SALARY is {}", MAX_SALARY);
+
+    let fixed_string = "hello world";
+    println!("fixed string {}", fixed_string);
+
+    let mut growable_string = String::from("hello world world hello");
+    println!("the string is : \"{}\"", growable_string);
+
+    growable_string.push('s');
+    println!("the string is : \"{}\"", growable_string);
+
+    growable_string.pop();
+    println!("the string is : \"{}\"", growable_string);
+
+    growable_string.push_str("star");
+    println!("the string is : \"{}\"", growable_string);
+
+    println!("the string is : \"{}\", capacity {}, len {}, is empty {}", growable_string, growable_string.capacity(), growable_string.len(), growable_string.is_empty());
+
+    let trim_str_len = growable_string.trim().len();
+    println!("the string len after trim is : \"{}\"", trim_str_len);
+
+
+    let number = 5;
+    let num_str = number.to_string();
+    println!("did number get converted to string? {}", num_str == "5");
+
+    let some_char = 'a';
+    let char_string = some_char.to_string();
+    println!("the string is : \"{}\"", char_string);
+
+    let name = "Abraham".to_string();
+    println!("the string is : \"{}\"", name);
+
+    let empty_str = String::new();
+    println!("len is {}", empty_str);
+
+    let s_1 = "hello".to_string();
+    let s_2 = "world".to_string();
+    let s_3 = format!("I am printing {} and {}", s_1, s_2);
+    println!("{}", s_3);
+
+    let concat = format!("{}{}", s_1, s_2);
 }
