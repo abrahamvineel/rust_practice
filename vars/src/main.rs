@@ -84,4 +84,17 @@ fn main() {
     println!("{}", s_3);
 
     let concat = format!("{}{}", s_1, s_2);
+    println!("{}", concat);
+
+    let my_information = ("Salary", 40_000);
+    println!("My {} is {}", my_information.0, my_information.1);
+
+    let (salary, salary_value) = my_information;
+
+    let mut arr : [i64;5] = [2,4,5,6,1];
+    println!("3rd num is {}", arr[2]);
+
+    //Option enum type has none or some
+    let val = arr.get(100);
+    println!("{:?}", val);
 }
