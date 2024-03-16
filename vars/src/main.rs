@@ -15,4 +15,28 @@ fn main() {
     let n3 = n1 as f64 + n2;
 
     println!("sum is {}", n3);
+
+    //shadowing
+
+    let r = 10;
+    let r = 20;
+
+    println!("r val after shadow {}", r);
+
+    let mut p = 1;
+    p = 5*5;
+
+    println!("p val after shadow {}", p);
+
+    let q = 32;
+    let q = 'A';
+
+    println!("q val after shadow {}", q);
+
+    let r = 65;
+    {
+        let r = 60;
+        println!("r val in statements {}", r);
+    }
+    println!("r val outside statements {}", r);
 }
