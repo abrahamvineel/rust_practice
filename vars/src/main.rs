@@ -97,4 +97,9 @@ fn main() {
     //Option enum type has none or some
     let val = arr.get(100);
     println!("{:?}", val);
+
+    //Vectors
+
+    let num: Vec<u8> = vec![1, 2, 3, 4];
+    let char_vec:Vec<char> = vec!['a';5];
 }
