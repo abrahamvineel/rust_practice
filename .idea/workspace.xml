@@ -8,7 +8,11 @@
     <cargoProject FILE="$PROJECT_DIR$/vars/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e8a1cb2-6a6a-4e97-b338-6755650873ca" name="Changes" comment="" />
+    <list default="true" id="1e8a1cb2-6a6a-4e97-b338-6755650873ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-cargo/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/hello-cargo/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/.rustc_info.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,12 +43,13 @@
   &quot;keyToString&quot;: {
     &quot;Cargo.Run learning_rust (1).executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run learning_rust.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run vars.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Pro/rust_practice/vars&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Pro/rust_practice&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,7 +60,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cargo.Run learning_rust (1)">
+  <component name="RunManager" selected="Cargo.Run vars">
     <configuration name="Run learning_rust (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package learning_rust --bin learning_rust" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/vars" />
@@ -90,6 +95,23 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Run vars" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package vars --bin vars" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/vars" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="command" value="run" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/vars" />
@@ -108,12 +130,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cargo.Run" />
+      <item itemvalue="Cargo.Run vars" />
       <item itemvalue="Cargo.Run learning_rust (1)" />
       <item itemvalue="Cargo.Run learning_rust" />
-      <item itemvalue="Cargo.Run" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run vars" />
         <item itemvalue="Cargo.Run learning_rust (1)" />
         <item itemvalue="Cargo.Run learning_rust" />
       </list>
@@ -133,6 +157,8 @@
       <workItem from="1709086685214" duration="36000" />
       <workItem from="1710462400669" duration="1120000" />
       <workItem from="1710548870468" duration="2538000" />
+      <workItem from="1710551674843" duration="180000" />
+      <workItem from="1710606165176" duration="446000" />
     </task>
     <servers />
   </component>
