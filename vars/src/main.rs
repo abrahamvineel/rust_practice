@@ -102,4 +102,27 @@ fn main() {
 
     let num: Vec<u8> = vec![1, 2, 3, 4];
     let char_vec:Vec<char> = vec!['a';5];
+    let (add, mul, sub) = math(10, 5);
+    println!("add {}, mul {} , sub {}", add, mul , sub);
+
+    let div = {
+        let n1 = 10;
+        let n2 = 5;
+        n1 / n2
+    };
+    println!("div {}", div);
+
+    let mut n = String::new();
+    std::io::stdin()
+        .read_line(&mut n)
+        .expect("failed to read input");
+
+    let n:f64 = n.trim().parse().expect("invalid input");
+    println!("{:?}", n);
+}
+
+
+//functions
+fn math(n1: i32, n2: i32) -> (i32, i32, i32) {
+    (n1 + n2, n1 * n2, n1 -n2)
 }
