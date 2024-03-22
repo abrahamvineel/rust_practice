@@ -33,7 +33,8 @@ fn input() -> String {
 }
 
 fn individual_symbols(input_expr: String) -> Vec<String> {
-    // let mut tokenized_input:Vec<String> = Vec::new();
+    let mut tokenized_input:Vec<String> = Vec::new();
+    tokenized_input
 }
 
 fn main() {
