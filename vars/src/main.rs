@@ -3,7 +3,6 @@ fn main() {
     println!("The value of c1 is {}", x1);
     println!("The max val of i8 is {}", i8::MAX);
 
-
     let (first_num, second_num) = (13.5, 14);
     let large_num = 1_000_000;
 
