@@ -188,39 +188,86 @@ struct Student {
 //     rect.perimeter();
 // }
 
-struct Data {
-    some_data: Vec<i32>,
-}
+// struct Data {
+//     some_data: Vec<i32>,
+// }
+//
+// trait BasicStats {
+//     fn mean(&self) -> f32;
+//     fn variance(&self) -> f32;
+// }
+//
+// impl BasicStats for Data {
+//     fn mean(&self) -> f32 {
+//         let mut sum = 0;
+//         for i in self.some_data.iter() {
+//             sum += *i;
+//         }
+//         sum as f32 / self.some_data.len() as f32
+//     }
+//
+//     fn variance(&self) -> f32 {
+//         let mu = self.mean();
+//         let mut sum_squared_diff = 0.0;
+//         for i in self.some_data.iter() {
+//             sum_squared_diff += ( *i as f32 - mu) * (*i as f32 - mu);
+//         }
+//         sum_squared_diff / self.some_data.len() as f32
+//     }
+// }
+//
+// fn main() {
+//     let my_data = Data {
+//         some_data: vec![5,6,7,8,9],
+//     };
+//
+//     println!("The mean is {}", my_data.mean());
+//     println!("The mean is {}", my_data.variance());
+// }
 
-trait BasicStats {
-    fn mean(&self) -> f32;
-    fn variance(&self) -> f32;
-}
 
-impl BasicStats for Data {
-    fn mean(&self) -> f32 {
-        let mut sum = 0;
-        for i in self.some_data.iter() {
-            sum += *i;
-        }
-        sum as f32 / self.some_data.len() as f32
-    }
+//Enums
 
-    fn variance(&self) -> f32 {
-        let mu = self.mean();
-        let mut sum_squared_diff = 0.0;
-        for i in self.some_data.iter() {
-            sum_squared_diff += ( *i as f32 - mu) * (*i as f32 - mu);
-        }
-        sum_squared_diff / self.some_data.len() as f32
-    }
+// enum Conveyance {
+//     Car(i32),
+//     Train(i32),
+//     Air(i32),
+// }
+//
+// impl Conveyance {
+//     fn travel_allowance(&self) -> f32 {
+//         let allowance = match self {
+//             Conveyance::Car(miles) => *miles as f32 * 14.0 * 2.0,
+//             Conveyance::Train(miles) => *miles as f32 * 18.0 * 2.0,
+//             Conveyance::Air(miles) => *miles as f32 * 35.0 * 2.0,
+//         };
+//         allowance
+//     }
+// }
+//
+// fn main() {
+//     let participant_1 = Conveyance::Car(60);
+//     let par_2 = Conveyance::Train(120);
+//     let par_3 = Conveyance::Air(50);
+//     // println!("the value of the option is {}", participant_1 as i32);
+//
+//     println!("The participant 1 has travel allowance of {} ", participant_1.travel_allowance());
+// }
+
+#[derive(Debug)]
+enum Value {
+    Integer(i32),
+    Float(f32),
 }
 
 fn main() {
-    let my_data = Data {
-        some_data: vec![5,6,7,8,9],
-    };
+    let val = vec![Value::Integer(12), Value::Float(25.4)];
+    println!("The value of the integer is {:?} and the float is {:?} ", val[0], val[1]);
 
-    println!("The mean is {}", my_data.mean());
-    println!("The mean is {}", my_data.variance());
+    for i in val.iter() {
+        match i {
+            Value::Integer(num) => println!("The value of the integer is {}", num),
+            Value::Float(num) => println!("The value of the float is {}", num)
+        }
+    }
 }
