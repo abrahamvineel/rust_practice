@@ -340,27 +340,65 @@ struct Student {
 //     }
 // }
 
-fn division(divident: f64, divisor: f64) -> Result<f64, String> {
-    // if divisor == 0.0 {
-    //     Err(String::from("Division by zero"))
-    // } else {
-    //     Ok(divident/ divisor)
-    // }
+// fn division(divident: f64, divisor: f64) -> Result<f64, String> {
+//     // if divisor == 0.0 {
+//     //     Err(String::from("Division by zero"))
+//     // } else {
+//     //     Ok(divident/ divisor)
+//     // }
+//
+//     match divisor {
+//         0.0 => Err(String::from("division by zero")),
+//         _ => Ok(divident/ divisor),
+//     }
+// }
+//
+// fn main() {
+//     println!("{:?}", division(9.0, 3.0));
+//
+//     let vec = vec![32,34,4,3];
+//     let result = match vec.get(3) {
+//         Some(a) => Ok(a),
+//         None => Err("No val")
+//     };
+//
+//     println!("val {:?}", result);
+// }
 
-    match divisor {
-        0.0 => Err(String::from("division by zero")),
-        _ => Ok(divident/ divisor),
-    }
-}
+use std::collections::HashMap;
+use std::hash::Hash;
+// fn main() {
+//     let mut person:HashMap<&str, i32> = HashMap::new();
+//     person.insert("hello", 2);
+//     person.insert("world", 4);
+//
+//     println!("val {:?}", person.get("hello").unwrap());
+//
+//     if person.contains_key("hello") {
+//         println!("exists");
+//     }
+//
+//     match person.get("hello") {
+//         Some(value) => println!("val {}", value),
+//         None => println!("no val"),
+//     }
+//
+//     for (name, age) in &person {
+//         println!("The person {} has age {}", name, age);
+//     }
+// }
 
 fn main() {
-    println!("{:?}", division(9.0, 3.0));
+    let mut likes:HashMap<&str, &str> = HashMap::new();
 
-    let vec = vec![32,34,4,3];
-    let result = match vec.get(3) {
-        Some(a) => Ok(a),
-        None => Err("No val")
-    };
+    likes.entry("hello").or_insert("abc");
 
-    println!("val {:?}", result);
+    let vec = vec![34,5,7,3,5,3];
+    let mut freq:HashMap<i32, i32> = HashMap::new();
+
+    for i in &vec {
+        let f = freq.entry(*i).or_insert(0);
+        *f += 1;
+    }
+    println!("map {:?}", freq);
 }
