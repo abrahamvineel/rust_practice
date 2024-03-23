@@ -6,52 +6,24 @@
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/hello-cargo/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/vars/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/structs_traits_enum_generics/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e8a1cb2-6a6a-4e97-b338-6755650873ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/bin-structs_traits_enum_generics" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/bin-structs_traits_enum_generics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/dep-bin-structs_traits_enum_generics" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/invoked.timestamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/vars/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/.fingerprint/vars-7735de14acad6489/output-bin-vars" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/debug/.fingerprint/vars-7735de14acad6489/output-bin-vars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/deps/vars.exe" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/debug/deps/vars.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/deps/vars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/debug/deps/vars.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/17um9jgavca7m5yj.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/1cc5mfyme6rcprk8.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/1g4gvh3o5s9l3u6a.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/1gzv9ysi8hp2ubkm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/1tmixcu0kzl3mdgw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/2lgy7cemvttlhgwh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/2m430sqzr7coxdj4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/2m6fa1vh5zrrbsui.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/2nptx7uucgdo7sth.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/2nrr5va1cq13fwuk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/2prx1n25dkqgs9ca.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/2tutpz7u1xjepm35.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/3g3pwyl6191hwdz4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/3m0mw4whlxzjxp5z.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/3ujj1qq4a916057l.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/3umj6m59y7wpwomf.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/41lp249uckvpfxso.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/424mx91nlzyutlj4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/4fhcdy49ohcftjwk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/4lrgdgham0a72z1v.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/4o2vkv5fhf4kcsi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/4q8d3j6bqq10c7zk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/4u0lsvkapo9zxm3a.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/548uzws3mrr4ujwh.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/57id6s7uswvl477k.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/5c0hyev3et95xcee.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/5f665aycd94v2uka.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/ltjblwmse3o1rel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/ofy0hbv8bxoecw7.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/ozrjgwtm0lpi5zi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/uheywuqqllfrie8.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/uya4qrohcdse50t.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk-8cijeh8ti0o7sdhjazph73a91/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/incremental/vars-yjln1aa96aqj/s-gucywyah4j-1httgjk.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/vars.exe" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/debug/vars.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/debug/vars.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/debug/vars.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/.rustc_info.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,28 +51,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cargo.Run learning_rust (1).executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run learning_rust.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run vars.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Pro/rust_practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Run learning_rust (1).executor": "Run",
+    "Cargo.Run learning_rust.executor": "Run",
+    "Cargo.Run vars.executor": "Run",
+    "Cargo.Run.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Pro/rust_practice/structs_traits_enum_generics/Cargo.toml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Cargo.Run vars">
+}]]></component>
+  <component name="RunManager" selected="Cargo.Run">
     <configuration name="Run learning_rust (1)" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package learning_rust --bin learning_rust" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/vars" />
@@ -154,7 +126,7 @@
     </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="command" value="run" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$/vars" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/structs_traits_enum_generics" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
