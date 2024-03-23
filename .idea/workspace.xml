@@ -10,20 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e8a1cb2-6a6a-4e97-b338-6755650873ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/bin-structs_traits_enum_generics" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/bin-structs_traits_enum_generics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/dep-bin-structs_traits_enum_generics" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/invoked.timestamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/.rustc_info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/vars/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/output-bin-structs_traits_enum_generics" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/.fingerprint/structs_traits_enum_generics-3adb22a90bab8594/output-bin-structs_traits_enum_generics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/deps/structs_traits_enum_generics.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/1f1lm2z16a7b5mw7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/2erfad8m93sxtmmt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/2m2dpxqssgrgqwgj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/3yphobl344lb7l1j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/437robrp1j4ehgs9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/448xa0y4f36vf6ym.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/49mkl1ror1cq2p2c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/4ljzaml6q9rmjj1r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/51hwj0ps4bpkp9fu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/56lnrmjzabkiox3y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/56wjwpkwbb7abu52.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/eql71gd4go0ko96.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/hd242tdkczjkj3j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/hte1rh7twidzbs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/ixosij73qoyt82v.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep-2hrxy1zek9smvn478dp9vg4xk/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/incremental/structs_traits_enum_generics-3s3p7jeg1ob7u/s-guktiiywif-jx7aep.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.exe" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/structs_traits_enum_generics/target/debug/structs_traits_enum_generics.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

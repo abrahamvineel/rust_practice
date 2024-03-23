@@ -254,20 +254,56 @@ struct Student {
 //     println!("The participant 1 has travel allowance of {} ", participant_1.travel_allowance());
 // }
 
-#[derive(Debug)]
-enum Value {
-    Integer(i32),
-    Float(f32),
+// #[derive(Debug)]
+// enum Value {
+//     Integer(i32),
+//     Float(f32),
+// }
+//
+// fn main() {
+//     let val = vec![Value::Integer(12), Value::Float(25.4)];
+//     println!("The value of the integer is {:?} and the float is {:?} ", val[0], val[1]);
+//
+//     for i in val.iter() {
+//         match i {
+//             Value::Integer(num) => println!("The value of the integer is {}", num),
+//             Value::Float(num) => println!("The value of the float is {}", num)
+//         }
+//     }
+// }
+
+// fn squarei32(x:i32) -> i32 {
+//     x*x
+// }
+//
+// fn squaref32(x:f32) -> f32 {
+//     x*x
+// }
+//
+// fn square<T>(x:T) -> T
+//     where T: std::ops::Mul<Output = T> + Copy + std::ops::Add {
+//     x+x;
+//     x*x
+// }
+//
+// fn main() {
+//     println!("The square of the number is {}", square(3));
+//     println!("The square of the number is {}", square(7.2));
+// }
+
+struct Point<T, U> {
+    x: T,
+    y: U,
 }
 
-fn main() {
-    let val = vec![Value::Integer(12), Value::Float(25.4)];
-    println!("The value of the integer is {:?} and the float is {:?} ", val[0], val[1]);
-
-    for i in val.iter() {
-        match i {
-            Value::Integer(num) => println!("The value of the integer is {}", num),
-            Value::Float(num) => println!("The value of the float is {}", num)
-        }
+impl<T, U> Point<T, U>
+where T: std::fmt::Debug, U: std::fmt::Debug {
+    fn printing(&self) {
+        println!("The value of the points {:?}, {:?}", self.x, self.y);
     }
+}
+fn main() {
+    let p1 = Point {x: 5, y : 5};
+    let p2 = Point {x: 1.0, y: 4.0};
+    let p3 = Point {x: 5, y: 5.0};
 }
