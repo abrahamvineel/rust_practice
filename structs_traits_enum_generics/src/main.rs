@@ -318,24 +318,49 @@ struct Student {
 //     }
 // }
 
-fn square(num: Option<i32>) -> Option<i32> {
-    match num {
-        Some(number) => Some(number * number),
-        None => None,
+// fn square(num: Option<i32>) -> Option<i32> {
+//     match num {
+//         Some(number) => Some(number * number),
+//         None => None,
+//     }
+// }
+// fn main() {
+//     let num:Option<i32> = Some(5);
+//
+//     if square(num) != None {
+//         println!("The res of square is {:?} ", square(num).unwrap());
+//     } else {
+//         println!("no value")
+//     }
+//
+//     if square(None) != None {
+//         println!("The res of square is {:?} ", square(num));
+//     } else {
+//         println!("no value")
+//     }
+// }
+
+fn division(divident: f64, divisor: f64) -> Result<f64, String> {
+    // if divisor == 0.0 {
+    //     Err(String::from("Division by zero"))
+    // } else {
+    //     Ok(divident/ divisor)
+    // }
+
+    match divisor {
+        0.0 => Err(String::from("division by zero")),
+        _ => Ok(divident/ divisor),
     }
 }
+
 fn main() {
-    let num:Option<i32> = Some(5);
+    println!("{:?}", division(9.0, 3.0));
 
-    if square(num) != None {
-        println!("The res of square is {:?} ", square(num).unwrap());
-    } else {
-        println!("no value")
-    }
+    let vec = vec![32,34,4,3];
+    let result = match vec.get(3) {
+        Some(a) => Ok(a),
+        None => Err("No val")
+    };
 
-    if square(None) != None {
-        println!("The res of square is {:?} ", square(num));
-    } else {
-        println!("no value")
-    }
+    println!("val {:?}", result);
 }
