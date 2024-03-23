@@ -291,19 +291,51 @@ struct Student {
 //     println!("The square of the number is {}", square(7.2));
 // }
 
-struct Point<T, U> {
-    x: T,
-    y: U,
-}
+// struct Point<T, U> {
+//     x: T,
+//     y: U,
+// }
+//
+// impl<T, U> Point<T, U>
+// where T: std::fmt::Debug, U: std::fmt::Debug {
+//     fn printing(&self) {
+//         println!("The value of the points {:?}, {:?}", self.x, self.y);
+//     }
+// }
+// fn main() {
+//     let p1 = Point {x: 5, y : 5};
+//     let p2 = Point {x: 1.0, y: 4.0};
+//     let p3 = Point {x: 5, y: 5.0};
+// }
 
-impl<T, U> Point<T, U>
-where T: std::fmt::Debug, U: std::fmt::Debug {
-    fn printing(&self) {
-        println!("The value of the points {:?}, {:?}", self.x, self.y);
+// fn main() {
+//     let mut book = None;
+//     book = Some(String::from("Spiritual"));
+//
+//     match book {
+//         Some(book_name) => println!("The book name is {}", book_name),
+//         None => println!("There are no books")
+//     }
+// }
+
+fn square(num: Option<i32>) -> Option<i32> {
+    match num {
+        Some(number) => Some(number * number),
+        None => None,
     }
 }
 fn main() {
-    let p1 = Point {x: 5, y : 5};
-    let p2 = Point {x: 1.0, y: 4.0};
-    let p3 = Point {x: 5, y: 5.0};
+    let num:Option<i32> = Some(5);
+
+    if square(num) != None {
+        println!("The res of square is {:?} ", square(num).unwrap());
+    } else {
+        println!("no value")
+    }
+
+    if square(None) != None {
+        println!("The res of square is {:?} ", square(num));
+    } else {
+        println!("no value")
+    }
 }
