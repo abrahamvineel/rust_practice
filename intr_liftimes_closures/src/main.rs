@@ -72,14 +72,49 @@
 
 use std::path::Component::ParentDir;
 
+// fn main() {
+//     let vec = vec![5,23,45,3,23];
+// }
+//
+// fn f1<'a>(v1: &'a [i32], v2:&'a [i32]) -> &'a [i32] {
+//     if 3 > 5 {
+//         v1
+//     } else {
+//         v2
+//     }
+// }
+
+//closures
+
 fn main() {
-    let vec = vec![5,23,45,3,23];
+    // let x =7;
+    // let sq = |num: i32| println!("the square is {}", num * num);
+    // sq(x);
+    //
+    // let y = 34;
+    //
+    // sq(y);
+
+    // let a = |general_info: String, name: &str, age| println!("{} {} {}", general_info, name, age);
+    // let gen = String::from("details are");
+    // let (name, age) = (String::from("hello"), 23);
+    // a(gen, &name, &age);
+
+    // let sq = |num| num * num;
+    // let x = 5;
+    // // sq(x);
+    //
+    // let y = 105.5;
+    // sq(y);
+
+    let status  = |y: f32| { if y != 0.0 {true} else {false}};
+    div(5.0, 0.0, status);
 }
 
-fn f1<'a>(v1: &'a [i32], v2:&'a [i32]) -> &'a [i32] {
-    if 3 > 5 {
-        v1
+fn div<F: Fn(f32) -> bool>(x: f32, y: f32, f:F) {
+    if f(y) == true {
+        println!("the div res {}", x / y);
     } else {
-        v2
+        println!("error")
     }
 }
