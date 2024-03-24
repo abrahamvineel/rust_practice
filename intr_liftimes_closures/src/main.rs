@@ -107,14 +107,26 @@ fn main() {
     // let y = 105.5;
     // sq(y);
 
-    let status  = |y: f32| { if y != 0.0 {true} else {false}};
-    div(5.0, 0.0, status);
-}
+//     let status  = |y: f32| { if y != 0.0 {true} else {false}};
+//     div(5.0, 0.0, status);
+// }
+//
+// fn div<F: Fn(f32) -> bool>(x: f32, y: f32, f:F) {
+//     if f(y) == true {
+//         println!("the div res {}", x / y);
+//     } else {
+//         println!("error")
+//     }
 
-fn div<F: Fn(f32) -> bool>(x: f32, y: f32, f:F) {
-    if f(y) == true {
-        println!("the div res {}", x / y);
-    } else {
-        println!("error")
-    }
+    // let s1 = |x: u32| -> u32 {x + 1};
+    // let s2 = |x| {x + 1};
+    // let s3 = |x|x + 1;
+    //
+
+    let mut v1 = vec![1,2,3];
+    let mut s = || {
+        v1.push(3245);
+    };
+    // println!("{:?}", v1);
+    s();
 }
