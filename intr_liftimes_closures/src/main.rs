@@ -123,10 +123,46 @@ fn main() {
     // let s3 = |x|x + 1;
     //
 
-    let mut v1 = vec![1,2,3];
-    let mut s = || {
-        v1.push(3245);
-    };
-    // println!("{:?}", v1);
-    s();
+    // let mut v1 = vec![1,2,3];
+    // let mut s = || {
+    //     v1.push(3245);
+    // };
+    // // println!("{:?}", v1);
+    // s();
+
+    //function types
+    // let mut f = min;
+    // println!("{} ", f(3,2));
+    // let (n, a) = (String::from("hello"), 10);
+    // info(name, &n, a);
+
+    println!("{}", do_twice(add_one, 10));
+
 }
+
+fn add_one(x: i32) -> i32 {
+    x+1
+}
+
+fn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {
+    f(arg) + f(arg)
+}
+
+// fn name(name: &str) {
+//     println!("{}", name);
+// }
+//
+// fn info(f: fn(&str), a: &str, age: i32) {
+//     f(a);
+//     println!("{} ", age);
+// }
+
+// fn max(x: i32, y: i32) -> i32 {
+//     if x > y {x}
+//     else {y}
+// }
+//
+// fn min(x: i32, y: i32) -> i32 {
+//     if x < y {x}
+//     else {y}
+// }
