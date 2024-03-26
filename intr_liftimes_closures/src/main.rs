@@ -136,17 +136,17 @@ fn main() {
     // let (n, a) = (String::from("hello"), 10);
     // info(name, &n, a);
 
-    println!("{}", do_twice(add_one, 10));
+    // println!("{}", do_twice(add_one, 10));
 
 }
 
-fn add_one(x: i32) -> i32 {
-    x+1
-}
-
-fn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {
-    f(arg) + f(arg)
-}
+// fn add_one(x: i32) -> i32 {
+//     x+1
+// }
+//
+// fn do_twice(f: fn(i32) -> i32, arg: i32) -> i32 {
+//     f(arg) + f(arg)
+// }
 
 // fn name(name: &str) {
 //     println!("{}", name);
