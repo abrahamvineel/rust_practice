@@ -32,4 +32,7 @@ fn main() {
     struct Student { name: String, level: u8, remote: bool }
     let user_1 = Student { name: String::from("hello"), remote: true, level: 2 };
     println!("{}, level {}. Remote: {}. ", user_1.name, user_1.level, user_1.remote);
+
+    let user_2 = Student { name: String::from("world"), remote: false, level: 1};
+    
 }
