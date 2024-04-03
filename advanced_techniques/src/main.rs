@@ -15,4 +15,5 @@ macro_rules! string_concat {
 fn main() {
     let null_str = string_concat!();
     let str1 = string_concat!("First");
+
 }
