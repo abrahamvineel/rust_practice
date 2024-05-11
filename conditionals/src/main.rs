@@ -8,7 +8,6 @@ fn main() {
     };
 
     println!("{}", val);
-
     let num = 84;
     let grade = match num {
         91..=100 => 'A',
