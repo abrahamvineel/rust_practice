@@ -1,13 +1,13 @@
 
-// fn f1(i: &i32) -> &i32 {
-//     &i
-// }
-//
-// fn main() {
-//     let i = 10;
-//     let val = f1(&i);
-//     println!("{}", val);
-// }
+fn f1(i: &i32) -> &i32 {
+    &i
+}
+
+fn main() {
+    let i = 10;
+    let val = f1(&i);
+    println!("{}", val);
+}
 
 
 // fn main() {
