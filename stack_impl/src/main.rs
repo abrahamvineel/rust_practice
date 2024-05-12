@@ -27,7 +27,6 @@ fn input() -> String {
     std::io::stdin()
         .read_line(&mut n)
         .expect("failed to read input");
-
     let n = n.trim().parse().expect("invalid input");
     n
 }
