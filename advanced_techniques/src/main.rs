@@ -15,5 +15,7 @@ macro_rules! string_concat {
 fn main() {
     let null_str = string_concat!();
     let str1 = string_concat!("First");
-    println!("{}". str1);
+    let str1 = string_concat!("Second");
+    println!("{} {}", str1, str2);
+    
 }
