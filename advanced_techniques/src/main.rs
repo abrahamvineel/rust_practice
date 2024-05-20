@@ -17,5 +17,4 @@ fn main() {
     let str1 = string_concat!("First");
     let str1 = string_concat!("Second");
     println!("{} {}", str1, str2);
-    
 }
