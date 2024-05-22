@@ -7,7 +7,7 @@ fn main() {
     let vec2 = vec1.clone();
     println!("{:?} {:?}", vec1, vec2);
 
-    let heap_vec: Vec<i32> = vec![10, 20];
+    let heap_vec: Vec<i32> = vec![10, 20, 30];
 
     heap_fn(&heap_vec);
     println!("values in heap {:?}", heap_vec);
