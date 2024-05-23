@@ -12,5 +12,5 @@ fn main() {
     let b = a.borrow();
     let c = a.borrow();
     let d = a.borrow_mut();
-
+    println!("{}", d.unwrap());
 }
