@@ -1,5 +1,5 @@
-fn heap_fn(var: &Vec<i32>) {
-    println!("var: {:?}", var);
+fn heap_fn(var1: &Vec<i32>) {
+    println!("var: {:?}", var1);
 }
 
 fn main() {
