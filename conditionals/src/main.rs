@@ -8,6 +8,17 @@ fn main() {
     };
 
     println!("{}", val);
+    
+    let val1 = {
+        if 10 > 14 {
+            1
+        } else {
+            2
+        }
+    };
+
+    println!("{}", val1);
+    
     let num = 84;
     let grade = match num {
         100 => 'S',
