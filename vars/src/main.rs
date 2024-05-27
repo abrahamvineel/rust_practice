@@ -73,7 +73,6 @@ fn main() {
 
     let name = "Abraham".to_string();
     println!("the string is : \"{}\"", name);
-
     let empty_str = String::new();
     println!("len is {}", empty_str);
 
