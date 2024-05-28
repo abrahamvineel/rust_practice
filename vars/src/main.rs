@@ -12,7 +12,6 @@ fn main() {
     let n2 = 15.6;
 
     let n3 = n1 as f64 + n2;
-
     println!("sum is {}", n3);
 
     //shadowing
