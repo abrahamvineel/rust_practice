@@ -52,7 +52,6 @@ fn main() {
 
     growable_string.pop();
     println!("the string is : \"{}\"", growable_string);
-
     growable_string.push_str("star");
     println!("the string is : \"{}\"", growable_string);
 
