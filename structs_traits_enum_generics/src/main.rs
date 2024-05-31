@@ -50,11 +50,11 @@ struct Student {
     citizenship: String
 }
 
-// trait GeneralInfo {
-//     fn info(&self) -> (&str, u8, char);
-//
-//     fn country_info(&self) -> str;
-// }
+trait GeneralInfo {
+    fn info(&self) -> (&str, u8, char);
+
+    fn country_info(&self) -> str;
+}
 
 // impl GeneralInfo for Person {
 //     fn info(&self) -> (&str, i32, char) {
