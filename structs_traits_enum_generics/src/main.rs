@@ -129,35 +129,35 @@ trait GeneralInfo {
 // }
 
 
-// struct Circle {
-//     radius: f32
-// }
-//
-// struct Rectangle {
-//     length: f32,
-//     width: f32
-// }
-//
-// trait GeneralInfo {
-//     fn area(&self) {
-//         println!("No implementation exists");
-//     }
-//
-//     fn perimeter(&self);
-// }
-//
-// impl GeneralInfo for Circle {
-//     // fn area(&self) {
-//     //     let area = 3.14 * (self.radius * self.radius);
-//     //     println!("The area of the circle is {} ", area);
-//     // }
-//
-//     fn perimeter(&self) {
-//         let circumference = 2.0 * 3.14 * self.radius;
-//         println!("The circumference of the circle is {}", circumference);
-//     }
-// }
-//
+struct Circle {
+    radius: f32
+}
+
+struct Rectangle {
+    length: f32,
+    width: f32
+}
+
+trait GeneralInfo {
+    fn area(&self) {
+        println!("No implementation exists");
+    }
+
+    fn perimeter(&self);
+}
+
+impl GeneralInfo for Circle {
+    // fn area(&self) {
+    //     let area = 3.14 * (self.radius * self.radius);
+    //     println!("The area of the circle is {} ", area);
+    // }
+
+    fn perimeter(&self) {
+        let circumference = 2.0 * 3.14 * self.radius;
+        println!("The circumference of the circle is {}", circumference);
+    }
+}
+
 //
 // impl GeneralInfo for Rectangle {
 //     fn area(&self) {
