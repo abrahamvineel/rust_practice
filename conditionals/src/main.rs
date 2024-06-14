@@ -28,6 +28,5 @@ fn main() {
         61..=70 => 'D',
         _ => 'F'
     };
-
     println!("The grade acheived is {}", grade);
 }
