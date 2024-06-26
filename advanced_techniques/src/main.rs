@@ -3,6 +3,7 @@ macro_rules! string_concat {
     () => {
         String::new();
     };
+    
     ($str: expr) => {
         {
             let mut tmp = String::new();
